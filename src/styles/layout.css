@@ -1,8 +1,26 @@
+/* 뒷 배경 */
+html, body {
+  background: #111;
+}
 
 .layout {
-  max-width: 960px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+
+
+
+.layout {
+  width: 393px;
+  max-width: 100vw;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #FFFFF5;
+  border: 1px solid #010101;
 }
 
 .header {
@@ -32,6 +50,8 @@
 }
 
 .main {
-  padding-bottom: 70px; /* 하단 네비 높이만큼 */
+  flex: 1;
+  overflow-y: auto;
 }
+
 
