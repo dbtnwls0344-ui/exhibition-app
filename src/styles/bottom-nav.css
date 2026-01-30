@@ -1,14 +1,14 @@
 .bottom-nav {
   position: sticky;
-  bottom: 12px;
-  margin: 0 16px 16px;
-  height: 64px;
+  bottom: 0;
+
+  height: 95px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background: #fffdf5;
   z-index: 1000;
-  border: 1px solid #010101;
+  border: 1px solid #808080;
   border-radius: 999px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
@@ -24,8 +24,8 @@
 }
 
 .tab img {
-  width: 24px;
-  height: 24px;
+  width: 37px;
+  height: 37px;
 }
 
 .tab.active {
