@@ -1,14 +1,12 @@
 /* 뒷 배경 */
-html, body {
+html,
+body {
   background: #111;
 }
 
 .layout {
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.08);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
-
-
-
 
 .layout {
   width: 393px;
@@ -19,8 +17,16 @@ html, body {
   display: flex;
   flex-direction: column;
 
-  background: #FFFFF5;
+  background: #fffff5;
   border: 1px solid #010101;
+}
+
+.layout--around .header {
+  display: none;
+}
+
+.layout--around .main {
+  padding-top: 0;
 }
 
 .header {
@@ -51,7 +57,5 @@ html, body {
 
 .main {
   flex: 1;
-  overflow-y: auto;
+  padding-bottom: 96px;
 }
-
-
